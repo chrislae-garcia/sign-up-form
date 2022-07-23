@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.woff') format('woff'),
+  url('fonts/roboto-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./fonts/Pacifico-Regular.woff') format('woff'),
+  url('./fonts/pacifico-regular.woff2') format('woff2');
+}
+
 body {
   display: flex;
   background: #e7e7e7;
@@ -23,7 +35,7 @@ body {
   position: relative;
   top: 25%;
   background-color: rgba(0, 0, 0, 0.4);
-  gap: 30px;
+  gap: 12px;
 }
 
 .logo img {
@@ -31,7 +43,9 @@ body {
 }
 
 .logo-text {
-  font-size: 3rem;
+  font-family: 'Pacifico';
+  font-size: 3.5rem;
+  text-shadow: #000 4px 4px;
   color:rgb(255, 208, 0);
 }
 
