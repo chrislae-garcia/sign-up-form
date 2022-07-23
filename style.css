@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 40vw;
+  width: 50vw;
   background-image: url('assets/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,4 +58,21 @@ body {
 
 .credits a {
   color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding-left: 40px;
+  padding-top: 100px;
+  font-family: 'Roboto';
+}
+
+.header p {
+  padding-right: 8rem;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+  word-break: normal;
 }
