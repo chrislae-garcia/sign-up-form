@@ -94,6 +94,7 @@ form div {
 form div div{
   display: flex;
   flex-direction: column;
+  gap: 4px 0;
   flex: 1 1 35%;
 }
 
